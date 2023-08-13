@@ -1,24 +1,24 @@
-# Entregable: Definición de la línea base y alcance del proyecto
+# Deliverable: Definition of the baseline and scope of the project
 
 Instructor: Carlos Mejia
 Student: Gabriela Sánchez
 
-La línea base (modelo de referencia) debe ser un modelo simple que actúe como una comparación y sea fácil de explicar. Además, la línea base debe basarse en el conjunto de datos para crear el modelo real.
+The baseline (reference model) should be a simple model that acts as a comparison and is easy to explain. Also, the baseline must be based on the data set to create the actual model.
 
-En este entregable se identifica la naturaleza del dataset que ha sido asignado, y se responden las siguientes preguntas:
+This deliverable identifies the nature of the dataset that has been assigned, and answers the following questions:
 
-1. ¿Qué problema aborda?
-2. ¿Qué soluciones (notebooks) ya tiene desarrollados?
-3. ¿Cuál de todas las soluciones contiene lo mínimo necesario para
-poder entrenar y guardar un modelo?
+1. What problem does it address?
+2. What solutions (notebooks) have you already developed?
+3. Which of all the solutions contains the minimum necessary to
+be able to train and save a model?
 
-El problema que aborda es de prevención de ataques:
+The problem it addresses is one of attack prevention:
 
 ![Alt text](stroke.png)
 
 According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. This dataset is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status. Each row in the data provides relavant information about the patient.
 
-El data se llama: "healthcare-dataset-stroke-data"
+The dataset is called: "healthcare-dataset-stroke-data"
 
 * Attribute Information:
 
@@ -40,12 +40,12 @@ El data se llama: "healthcare-dataset-stroke-data"
     Reference: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset
 
 
-Existen múltiples soluciones desarrolladas, dentro de las cuales revisé particularmente las dos siguientes:
+There are multiple developed solutions, within which I particularly reviewed the following two:
 
 - stroke-prediction-effect-of-data-leakage-smote.ipynb
 - beginner-friendly-end-to-end-ml-project-enjoy.ipynb
 
-La que tomé como base es la última "beginner-friendly-end-to-end-ml-project-enjoy.ipynb".
+The one I took as a base is the latest "beginner-friendly-end-to-end-ml-project-enjoy.ipynb".
 
-El alcance del modelo es:
-- Tomar el dataset con los inputs para entrenar un modelo que pueda predecir la probabilidad de tener un ataque considerando algunas caracterírsticas de los pacientes/personas.
+The scope of the model is:
+- Take the dataset with the inputs to train a model that can predict the probability of having an attack considering some characteristics of the patients/people.
