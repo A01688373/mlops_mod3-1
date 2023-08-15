@@ -1,7 +1,7 @@
 # Deliverable: Definition of the baseline and scope of the project
 
-Instructor: Carlos Mejia
-Student: Gabriela Sánchez
+### Instructor: Carlos Mejia
+### Student: Gabriela Sánchez
 
 The baseline (reference model) should be a simple model that acts as a comparison and is easy to explain. Also, the baseline must be based on the data set to create the actual model.
 
